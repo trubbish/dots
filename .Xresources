@@ -1,0 +1,53 @@
+!Xcursor.theme: DMZ-White
+
+
+! special
+*.foreground:   #FFFFFF
+*.background:   #252422
+!#101214
+*.cursorColor:  #9AB8D7
+
+! black
+*.color0:       #3F3F3F
+*.color8:       #709080
+
+! red
+*.color1:       #705050
+*.color9:       #DCA3A3
+
+! green
+*.color2:       #6088B4
+*.color10:      #728CD5
+
+! yellow
+*.color3:       #DFAF8F
+*.color11:      #F0DFAF
+
+! blue
+*.color4:       #9AB8D7
+*.color12:      #94BFF3
+
+! magenta
+*.color5:       #DC8CC3
+*.color13:      #EC93D3
+
+! cyan
+*.color6:       #8CD0D3
+*.color14:      #93E0E3
+
+! white
+*.color7:       #DCDCDC
+*.color15:      #FFFFFF
+
+URxvt*highlightColor: #e69e87
+URxvt*highlightTextColor: #252422
+
+URxvt.internalBorder: 15
+URxvt.scrollBar: false
+urxvt*font:xft:Noto Mono for Powerline:pixelsize=12
+urxvt*boldfont:xft:Noto Mono for Powerline:pixelsize=12
+
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.clipboard.copycmd: xclip -selection clipboard -i
+URxvt.clipboard.pastecmd: xclip -selection clipboard -o
